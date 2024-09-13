@@ -561,6 +561,10 @@ body {
   border-radius: var(--radius-8);
 }
 
+.griev-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
 .griev-item-icon {
   background: var(--cultured);
   color: var(--red-crayola);
