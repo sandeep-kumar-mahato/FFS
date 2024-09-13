@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foresight Financial Solutions</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./logo.png" type="image/svg+xml" />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img src="./assets/images/logo.png" alt="ffs logo" />
+        </a>
+
+        <button class="nav-toggle-btn" data-nav-toggle-btn>
+          <ion-icon name="menu-outline" class="open"></ion-icon>
+          <ion-icon name="close-outline" class="close"></ion-icon>
+        </button>
+
+        <nav class="navbar">
+          <div class="container">
+            <ul class="navbar-list">
+              <li>
+                <a href="index.html" class="navbar-link" data-navbar-link
+                  >Home</a
+                >
+              </li>
+
+              <li>
+                <a href="#features" class="navbar-link" data-navbar-link
+                  >Services</a
+                >
+              </li>
+
+              <li>
+                <a href="#service" class="navbar-link" data-navbar-link
+                  >Skill Sets</a
+                >
+              </li>
+
+              <li>
+                <a href="#illustration" class="navbar-link" data-navbar-link
+                  >Illustration</a
+                >
+              </li>
+
+              <li>
+                <a href="#blog" class="navbar-link" data-navbar-link>Blog</a>
+              </li>
+
+              <li>
+                <a href="#grievances" class="navbar-link" data-navbar-link
+                  >Grievances</a
+                >
+              </li>
+
+              <li>
+                <a href="#contact-us" class="navbar-link" data-navbar-link
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <button id="getStartedBtn" class="btn btn-secondary">
+          <span>Get Started</span>
+
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+        </button>
+        <!-- Overlay -->
+        <div id="overlay">
+          <div class="overlay-content" data-tilt>
+            <h2>Submit Your Query</h2>
+            <form id="queryForm">
+              <div class="querySection">
+                <div class="query">
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Your Name"
+                    required
+                  />
+                </div>
+                <div class="query">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Your Email"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="querySection">
+                <div class="query">
+                  <label for="phone">Phone Number</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Your Phone Number"
+                    required
+                  />
+                </div>
+
+                <div class="query">
+                  <label for="location">Location</label>
+                  <input
+                    type="text"
+                    id="location"
+                    name="location"
+                    placeholder="Your Location"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="query">
+                <label for="query">Query</label>
+                <textarea
+                  id="query"
+                  name="query"
+                  placeholder="Your Query"
+                  rows="6"
+                  required
+                ></textarea>
+              </div>
+              <div class="query">
+                <button class="btn btn-secondary" type="submit">
+                  Submit
+
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- Overlay End -->
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="hero" id="home">
+          <div class="container">
+            <figure class="hero-banner">
+              <img
+                src="./assets/images/hero-banner.png"
+                alt="Illustration art"
+                loading="lazy"
+                class="w-100"
+              />
+            </figure>
+
+            <div class="hero-content">
+              <h2 class="h1 hero-title">
+                Secure Financial solutions for a more secure future
+              </h2>
+
+              <p class="section-text">
+                Our financial experts continuously monitor your portfolio,
+                crafting investment strategies, buying and selling assets,
+                managing asset allocation, and minimizing taxes.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #FEATURES
+      -->
+
+        <section class="features" id="features">
+          <div class="container">
+            <p class="section-subtitle">Services</p>
+
+            <h2 class="h2 section-title">How Can We Help You</h2>
+
+            <ul class="features-list">
+              <li>
+                <div class="features-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/features-icon-1.png"
+                      alt="Illustration icon"
+                    />
+                  </div>
+                  <h3 class="h3 card-title">Taxes and Investment</h3>
+                  <p class="card-text">
+                    When a govt. or taxing authority imposes a tax on its
+                    citizens and business entities, tax planning carries a
+                    crucial role in managing money.
+                    <span class="moreText" style="display: none">
+                      So, it’s very important to choose the right tax planning
+                      strategies, based on the financial goals and tax
+                      situations. Tax saving investment plays a key role in the
+                      financial stability and ability to achieve long-term
+                      financial goals. So, tax liability can be minimized by
+                      income, expenses, and investments.<br />- Encompasses
+                      Stocks<br />
+                      - Bonds<br />
+                      - Mutual Funds<br />
+                      - ETFs<br />
+                      - Retirement Accounts
+                    </span>
+                    <a
+                      href="javascript:void(0);"
+                      class="card-link toggleButton"
+                    >
+                      <span>Know More</span>
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </a>
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/features-icon-2.png"
+                      alt="Illustration icon"
+                    />
+                  </div>
+                  <h3 class="h3 card-title">Monitoring Investment</h3>
+                  <p class="card-text">
+                    When a govt. or taxing authority imposes a tax on its
+                    citizens and business entities, tax planning carries a
+                    crucial role in managing money.
+                    <span class="moreText" style="display: none">
+                      So, it’s very important to choose the right tax planning
+                      strategies, based on the financial goals and tax
+                      situations. Tax saving investment plays a key role in the
+                      financial stability and ability to achieve long-term
+                      financial goals. So, tax liability can be minimized by
+                      income, expenses, and investments.
+                    </span>
+                    <a
+                      href="javascript:void(0);"
+                      class="card-link toggleButton"
+                    >
+                      <span>Know More</span>
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </a>
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/features-icon-3.png"
+                      alt="Illustration icon"
+                    />
+                  </div>
+                  <h3 class="h3 card-title">Risk-Tweaked Return</h3>
+                  <p class="card-text">
+                    When a govt. or taxing authority imposes a tax on its
+                    citizens and business entities, tax planning carries a
+                    crucial role in managing money.
+                    <span class="moreText" style="display: none">
+                      So, it’s very important to choose the right tax planning
+                      strategies, based on the financial goals and tax
+                      situations. Tax saving investment plays a key role in the
+                      financial stability and ability to achieve long-term
+                      financial goals. So, tax liability can be minimized by
+                      income, expenses, and investments.
+                    </span>
+                    <a
+                      href="javascript:void(0);"
+                      class="card-link toggleButton"
+                    >
+                      <span>Know More</span>
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </a>
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/features-icon-4.png"
+                      alt="Illustration icon"
+                    />
+                  </div>
+                  <h3 class="h3 card-title">Reliable Portfolio Strategies</h3>
+                  <p class="card-text">
+                    When a govt. or taxing authority imposes a tax on its
+                    citizens and business entities, tax planning carries a
+                    crucial role in managing money.
+                    <span class="moreText" style="display: none">
+                      So, it’s very important to choose the right tax planning
+                      strategies, based on the financial goals and tax
+                      situations. Tax saving investment plays a key role in the
+                      financial stability and ability to achieve long-term
+                      financial goals. So, tax liability can be minimized by
+                      income, expenses, and investments.
+                    </span>
+                    <a
+                      href="javascript:void(0);"
+                      class="card-link toggleButton"
+                    >
+                      <span>Know More</span>
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </a>
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/features-icon-5.png"
+                      alt="Illustration icon"
+                    />
+                  </div>
+                  <h3 class="h3 card-title">
+                    Well-Structured Financial Foundations
+                  </h3>
+                  <p class="card-text">
+                    When a govt. or taxing authority imposes a tax on its
+                    citizens and business entities, tax planning carries a
+                    crucial role in managing money.
+                    <span class="moreText" style="display: none">
+                      So, it’s very important to choose the right tax planning
+                      strategies, based on the financial goals and tax
+                      situations. Tax saving investment plays a key role in the
+                      financial stability and ability to achieve long-term
+                      financial goals. So, tax liability can be minimized by
+                      income, expenses, and investments.
+                    </span>
+                    <a
+                      href="javascript:void(0);"
+                      class="card-link toggleButton"
+                    >
+                      <span>Know More</span>
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </a>
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #SERVICE
+      -->
+
+        <section class="service" id="service">
+          <div class="container">
+            <figure class="service-banner">
+              <img
+                src="./assets/images/service-1.png"
+                alt="Illustration art"
+                loading="lazy"
+                class="w-100"
+              />
+            </figure>
+
+            <div class="service-content">
+              <p class="section-subtitle">Skill Sets</p>
+
+              <h2 class="h2 section-title">
+                We are here, to help your Finances
+              </h2>
+
+              <ul class="service-list">
+                <li class="service-item">
+                  <div class="service-item-icon">
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 service-item-title">Awareness</h3>
+                </li>
+
+                <li class="service-item">
+                  <div class="service-item-icon">
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 service-item-title">Literacy</h3>
+                </li>
+
+                <li class="service-item">
+                  <div class="service-item-icon">
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 service-item-title">Advocacy</h3>
+                </li>
+              </ul>
+            </div>
+
+            <figure class="service-banner">
+              <img
+                src="./assets/images/service-2.png"
+                alt="Illustration art"
+                loading="lazy"
+                class="w-100"
+              />
+            </figure>
+
+            <div class="service-content service" id="illustration">
+              <p class="section-subtitle">Illustration</p>
+
+              <h2 class="h2 section-title">
+                Best Financial Solutions in your area
+              </h2>
+
+              <ul class="service-list">
+                <li class="service-item">
+                  <div class="service-item-icon">
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 service-item-title">Tax-efficient</h3>
+                </li>
+
+                <li class="service-item">
+                  <div class="service-item-icon">
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 service-item-title">Close monitoring</h3>
+                </li>
+
+                <li class="service-item">
+                  <div class="service-item-icon">
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 service-item-title">Risk-adjusted returns</h3>
+                </li>
+
+                <li class="service-item">
+                  <div class="service-item-icon">
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 service-item-title">
+                    Robust portfolio management
+                  </h3>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #BLOG
+      -->
+
+        <section class="blog" id="blog">
+          <div class="container">
+            <p class="section-subtitle">Latest News</p>
+
+            <h2 class="h2 section-title">Our latest articles & resources</h2>
+
+            <ul class="blog-list">
+              <li>
+                <div class="blog-card">
+                  <figure class="blog-banner">
+                    <a href="#">
+                      <img
+                        src="./assets/images/blog-1.jpg"
+                        alt="How is technology working with new things?"
+                        loading="lazy"
+                        class="w-100"
+                      />
+                    </a>
+                  </figure>
+
+                  <div class="blog-content">
+                    <ul class="blog-meta-list">
+                      <li class="blog-meta-item">
+                        <ion-icon name="pricetag-outline"></ion-icon>
+
+                        <a href="#" class="blog-meta-link">Finance</a>
+                      </li>
+
+                      <li class="blog-meta-item">
+                        <ion-icon name="calendar-number-outline"></ion-icon>
+
+                        <time class="blog-meta-time" datetime="2022-02-25"
+                          >25 Feb, 2022</time
+                        >
+                      </li>
+                    </ul>
+
+                    <h3 class="h3 blog-title">
+                      <a href="#">Finance Topic 1</a>
+                    </h3>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="blog-card">
+                  <figure class="blog-banner">
+                    <a href="#">
+                      <img
+                        src="./assets/images/blog-2.jpg"
+                        alt="Top 10 important tips on IT services & design"
+                        loading="lazy"
+                        class="w-100"
+                      />
+                    </a>
+                  </figure>
+
+                  <div class="blog-content">
+                    <ul class="blog-meta-list">
+                      <li class="blog-meta-item">
+                        <ion-icon name="pricetag-outline"></ion-icon>
+
+                        <a href="#" class="blog-meta-link">Stock Market</a>
+                      </li>
+
+                      <li class="blog-meta-item">
+                        <ion-icon name="calendar-number-outline"></ion-icon>
+
+                        <time class="blog-meta-time" datetime="2022-02-25"
+                          >25 Feb, 2022</time
+                        >
+                      </li>
+                    </ul>
+
+                    <h3 class="h3 blog-title">
+                      <a href="#">Finance Topic 2</a>
+                    </h3>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="blog-card">
+                  <figure class="blog-banner">
+                    <a href="#">
+                      <img
+                        src="./assets/images/blog-3.jpg"
+                        alt="How our company works in different ways"
+                        loading="lazy"
+                        class="w-100"
+                      />
+                    </a>
+                  </figure>
+
+                  <div class="blog-content">
+                    <ul class="blog-meta-list">
+                      <li class="blog-meta-item">
+                        <ion-icon name="pricetag-outline"></ion-icon>
+
+                        <a href="#" class="blog-meta-link">Finance Solutions</a>
+                      </li>
+
+                      <li class="blog-meta-item">
+                        <ion-icon name="calendar-number-outline"></ion-icon>
+
+                        <time class="blog-meta-time" datetime="2022-02-25"
+                          >25 Feb, 2022</time
+                        >
+                      </li>
+                    </ul>
+
+                    <h3 class="h3 blog-title">
+                      <a href="#">Finance Topic 3</a>
+                    </h3>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+      - #GRIEVANCES
+    -->
+
+        <section class="features" id="grievances">
+          <div class="container">
+            <p class="section-subtitle">Grievances</p>
+
+            <h2 class="h2 section-title">How Can We Help You</h2>
+
+            <!-- <ul class="features-list">
+              <li>
+                <div class="features-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/features-icon-1.png"
+                      alt="Illustration icon"
+                    />
+                  </div>
+                  <h3 class="h3 card-title">Customer Empowerment</h3>
+                  <p class="card-text">
+                    When a govt. or taxing authority imposes a tax on its
+                    citizens and business entities, tax planning carries a
+                    crucial role in managing money.
+                    <span class="moreText" style="display: none">
+                      So, it’s very important to choose the right tax planning
+                      strategies, based on the financial goals and tax
+                      situations. Tax saving investment plays a key role in the
+                      financial stability and ability to achieve long-term
+                      financial goals. So, tax liability can be minimized by
+                      income, expenses, and investments.<br />- Encompasses
+                      Stocks<br />
+                      - Bonds<br />
+                      - Mutual Funds<br />
+                      - ETFs<br />
+                      - Retirement Accounts
+                    </span>
+                    <a
+                      href="javascript:void(0);"
+                      class="card-link toggleButton"
+                    >
+                      <span>Know More</span>
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </a>
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/features-icon-2.png"
+                      alt="Illustration icon"
+                    />
+                  </div>
+                  <h3 class="h3 card-title">Ethical Responsibility</h3>
+                  <p class="card-text">
+                    When a govt. or taxing authority imposes a tax on its
+                    citizens and business entities, tax planning carries a
+                    crucial role in managing money.
+                    <span class="moreText" style="display: none">
+                      So, it’s very important to choose the right tax planning
+                      strategies, based on the financial goals and tax
+                      situations. Tax saving investment plays a key role in the
+                      financial stability and ability to achieve long-term
+                      financial goals. So, tax liability can be minimized by
+                      income, expenses, and investments.
+                    </span>
+                    <a
+                      href="javascript:void(0);"
+                      class="card-link toggleButton"
+                    >
+                      <span>Know More</span>
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </a>
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/features-icon-3.png"
+                      alt="Illustration icon"
+                    />
+                  </div>
+                  <h3 class="h3 card-title">Risk Management</h3>
+                  <p class="card-text">
+                    When a govt. or taxing authority imposes a tax on its
+                    citizens and business entities, tax planning carries a
+                    crucial role in managing money.
+                    <span class="moreText" style="display: none">
+                      So, it’s very important to choose the right tax planning
+                      strategies, based on the financial goals and tax
+                      situations. Tax saving investment plays a key role in the
+                      financial stability and ability to achieve long-term
+                      financial goals. So, tax liability can be minimized by
+                      income, expenses, and investments.
+                    </span>
+                    <a
+                      href="javascript:void(0);"
+                      class="card-link toggleButton"
+                    >
+                      <span>Know More</span>
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </a>
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/features-icon-4.png"
+                      alt="Illustration icon"
+                    />
+                  </div>
+                  <h3 class="h3 card-title">Operational Efficiency</h3>
+                  <p class="card-text">
+                    When a govt. or taxing authority imposes a tax on its
+                    citizens and business entities, tax planning carries a
+                    crucial role in managing money.
+                    <span class="moreText" style="display: none">
+                      So, it’s very important to choose the right tax planning
+                      strategies, based on the financial goals and tax
+                      situations. Tax saving investment plays a key role in the
+                      financial stability and ability to achieve long-term
+                      financial goals. So, tax liability can be minimized by
+                      income, expenses, and investments.
+                    </span>
+                    <a
+                      href="javascript:void(0);"
+                      class="card-link toggleButton"
+                    >
+                      <span>Know More</span>
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </a>
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/features-icon-5.png"
+                      alt="Illustration icon"
+                    />
+                  </div>
+                  <h3 class="h3 card-title">
+                    Regulatory Compliance
+                  </h3>
+                  <p class="card-text">
+                    When a govt. or taxing authority imposes a tax on its
+                    citizens and business entities, tax planning carries a
+                    crucial role in managing money.
+                    <span class="moreText" style="display: none">
+                      So, it’s very important to choose the right tax planning
+                      strategies, based on the financial goals and tax
+                      situations. Tax saving investment plays a key role in the
+                      financial stability and ability to achieve long-term
+                      financial goals. So, tax liability can be minimized by
+                      income, expenses, and investments.
+                    </span>
+                    <a
+                      href="javascript:void(0);"
+                      class="card-link toggleButton"
+                    >
+                      <span>Know More</span>
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </a>
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/features-icon-5.png"
+                      alt="Illustration icon"
+                    />
+                  </div>
+                  <h3 class="h3 card-title">
+                    Customer Trust and Satisfaction
+                  </h3>
+                  <p class="card-text">
+                    When a govt. or taxing authority imposes a tax on its
+                    citizens and business entities, tax planning carries a
+                    crucial role in managing money.
+                    <span class="moreText" style="display: none">
+                      So, it’s very important to choose the right tax planning
+                      strategies, based on the financial goals and tax
+                      situations. Tax saving investment plays a key role in the
+                      financial stability and ability to achieve long-term
+                      financial goals. So, tax liability can be minimized by
+                      income, expenses, and investments.
+                    </span>
+                    <a
+                      href="javascript:void(0);"
+                      class="card-link toggleButton"
+                    >
+                      <span>Know More</span>
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </a>
+                  </p>
+                </div>
+              </li>
+
+            </ul> -->
+          </div>
+        </section>
+
+        <!-- 
+        - #NEWSLETTER
+      -->
+
+        <section class="newsletter" id="newsletter">
+          <div class="container">
+            <figure class="newsletter-banner">
+              <img
+                src="./assets/images/newsletter.png"
+                alt="Illustration art"
+                loading="lazy"
+                class="w-100"
+              />
+            </figure>
+
+            <div class="newsletter-content">
+              <p class="section-subtitle">Subscribe Our Newsletter</p>
+
+              <h2 class="h2 section-title">
+                The latest resources, sent to your inbox weekly
+              </h2>
+
+              <form action="" class="newsletter-form">
+                <input
+                  type="email"
+                  name="email"
+                  required
+                  placeholder="Enter your email address"
+                  class="input-field"
+                />
+
+                <button type="submit" class="btn btn-secondary">
+                  <span>Subscribe Now</span>
+
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer" id="contact-us">
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-brand">
+            <a href="#" class="logo1">
+              <img src="./assets/images/logo1.png" alt="ffs logo" />
+            </a>
+
+            <p class="section-text">
+              A Trusted Partner for Financial Architechture
+            </p>
+
+            <div class="location-text">
+              <div class="location-icon">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <address class="address">Odisha, India.</address>
+            </div>
+          </div>
+
+          <div class="quicklink-box">
+            <p class="h3 quicklink-title">Our Handles</p>
+
+            <ul class="quicklink-list">
+              <li>
+                <ion-icon name="logo-facebook"></ion-icon>
+                <a href="#" class="quicklink">Facebook</a>
+              </li>
+
+              <li>
+                <ion-icon name="logo-whatsapp"></ion-icon>
+                <a href="#" class="quicklink">WhatsApp</a>
+              </li>
+
+              <li>
+                <ion-icon name="logo-linkedin"></ion-icon>
+                <a href="#" class="quicklink">LinkedIn</a>
+              </li>
+
+              <li>
+                <ion-icon name="logo-instagram"></ion-icon>
+                <a href="#" class="quicklink">Instagram</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact">
+            <p class="h3 contact-title">Contact with us</p>
+
+            <ul class="contact-list">
+              <li class="contact-item">
+                <div class="contact-icon">
+                  <ion-icon name="mail-outline"></ion-icon>
+                </div>
+
+                <a href="mailto:hello@ffs.com" class="contact-link"
+                  >hello@ffs.com</a
+                >
+              </li>
+
+              <li class="contact-item">
+                <div class="contact-icon">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+
+                <a href="tel:+14854560102" class="contact-link"
+                  >+1-485-456-0102</a
+                >
+              </li>
+
+              <li class="contact-item">
+                <div class="contact-icon">
+                  <ion-icon name="location-outline"></ion-icon>
+                </div>
+
+                <a href="location link" class="contact-link">location link</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">
+            &copy; 2024 <a href="index.html">Foresight Financial Solutions</a>.
+            All Rights Reserved
+          </p>
+
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #GO TO TOP
+  -->
+
+    <a href="#top" class="go-top active" data-go-top>
+      <ion-icon name="chevron-up-outline"></ion-icon>
+    </a>
+    <script src="vanilla-tilt.js"></script>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
