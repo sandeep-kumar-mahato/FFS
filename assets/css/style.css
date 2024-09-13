@@ -547,6 +547,8 @@ body {
 .griev-list {
   display: grid;
   grid-template-columns: auto auto;
+  gap: 20px;
+  padding: 20px;
 }
 
 .griev-item {
