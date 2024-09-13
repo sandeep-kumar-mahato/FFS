@@ -544,6 +544,45 @@ body {
   color: var(--white);
 }
 
+.griev-list {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.griev-item {
+  background: var(--white);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 12px 20px;
+  box-shadow: 0 5px 25px 10px hsla(0, 0%, 0%, 0.02);
+  border-radius: var(--radius-8);
+}
+
+.griev-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.griev-item-icon {
+  background: var(--cultured);
+  color: var(--red-crayola);
+  min-width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  transition: var(--transition);
+}
+
+.griev-item-icon ion-icon {
+  --ionicon-stroke-width: 50px;
+}
+
+.griev-item:hover .griev-item-icon {
+  background: var(--red-crayola);
+  color: var(--white);
+}
+
 
 
 
