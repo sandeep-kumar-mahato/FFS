@@ -590,7 +590,7 @@ body {
 
 .flip-card {
   background-color: transparent;
-  width: 300px;
+  width: 250px;
   height: 300px;
   perspective: 1000px;
 }
