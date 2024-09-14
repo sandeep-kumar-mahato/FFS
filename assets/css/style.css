@@ -547,6 +547,11 @@ body {
   color: var(--white);
 }
 
+.griev-item:hover .service-item-icon {
+  background: var(--red-crayola);
+  color: var(--white);
+}
+
 .griev-list {
   display: grid;
   grid-template-columns: auto auto;
