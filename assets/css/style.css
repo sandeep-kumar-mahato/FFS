@@ -164,6 +164,7 @@ body {
   font-size: var(--fs-4);
   line-height: 1.8;
   margin-bottom: 15px;
+  text-align: justify;
 }
 
 .btn {
