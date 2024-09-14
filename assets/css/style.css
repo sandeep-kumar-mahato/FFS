@@ -152,6 +152,8 @@ body {
 
 .h2 {
   font-size: var(--fs-2);
+  text-align: center;
+  padding-bottom: 2%;
 }
 
 .h3 {
